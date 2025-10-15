@@ -1,0 +1,60 @@
+/* Brand overrides: set primary to mamei (#F9AA02) and align theme classes */
+:root {
+  --bs-primary: #F9AA02;
+  --bs-primary-rgb: 249, 170, 2;
+  --bs-link-color: #F9AA02;
+  --bs-link-hover-color: #c98600;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-bg: #d29203;
+  --bs-btn-hover-border-color: #d29203;
+  --bs-btn-active-bg: #c98600;
+  --bs-btn-active-border-color: #c98600;
+  --bs-btn-disabled-bg: var(--bs-primary);
+  --bs-btn-disabled-border-color: var(--bs-primary);
+}
+
+.btn-outline-primary {
+  --bs-btn-color: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-bg: var(--bs-primary);
+  --bs-btn-hover-border-color: var(--bs-primary);
+}
+
+.text-primary { color: var(--bs-primary) !important; }
+.bg-primary { background-color: var(--bs-primary) !important; }
+.border-primary { border-color: var(--bs-primary) !important; }
+
+.theme-bg { background: #F9AA02 !important; }
+.theme-bg2 { background: #F9AA02 !important; }
+
+/* Remove green accents */
+.text-success { color: #F9AA02 !important; }
+.bg-success { background-color: #F9AA02 !important; }
+.btn-success { background-color: #F9AA02 !important; border-color: #F9AA02 !important; }
+.text-theme { color: #F9AA02 !important; }
+
+/* Header logo sizing to avoid menu overflow */
+.theme-main-menu .logo-area img {
+  max-height: 36px !important;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 991.98px) {
+  .theme-main-menu .logo-area img {
+    max-height: 30px !important;
+  }
+}
+
+/* Footer logo sizing for consistency */
+.footer-one .footer-logo img {
+  max-height: 40px;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+}

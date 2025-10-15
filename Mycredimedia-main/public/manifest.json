@@ -1,0 +1,27 @@
+{
+  "name": "MyCredimedia - Servicios de Crédito a tu Medida",
+  "short_name": "MyCredimedia",
+  "description": "Obtén financiamiento hasta el 70% del valor de tu vehículo. Tasas desde 1.5%, procesos rápidos y mantienes tu vehículo.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FFB91E",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["finance", "business"],
+  "lang": "es-DO",
+  "scope": "/",
+  "developer": {
+    "name": "TomasDeev",
+    "url": "https://tomasdeev.com"
+  },
+  "related_applications": [],
+  "prefer_related_applications": false
+}
