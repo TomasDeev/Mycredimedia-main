@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "Mycredimedia-main/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "Mycredimedia-main/dist",
+        "buildCommand": "npm run build"
+      }
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
